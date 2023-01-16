@@ -1,0 +1,100 @@
+#titulo{
+    color:crimson;
+    text-align: center;
+    text-shadow: 3px 5px 5px blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  30px;
+}
+#imagen{
+    display: flex;
+    box-shadow: 10px 0 10px black;
+    justify-content: center;
+}
+#item1{
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+}
+.item{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    color: midnightblue;
+}
+a{
+    display: block;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(255, 0, 157);
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin: 5px 550px;
+    text-decoration: none;
+    color: black;
+    
+}
+.subtitulos{
+    color: brown;
+
+}
+.texto{
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size:medium;
+}
+div p {
+    color: rgb(7, 7, 7);
+}
+*{
+    font-size:  20px;
+}
+a:link{
+    color: brown;
+}
+a:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 0, 157);
+    color: rgb(255, 0, 157);;
+}
+#contenido{
+    text-align: center;
+}
+body{
+    background-color: rgb(238, 123, 84);
+    text-align: center;
+}
+.acordeon{
+    background-color: powderblue(247, 188, 80);
+    color: black;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+}
+.active,.acordeon{
+    background-color: rgb(15, 162, 211);
+
+}
+.panel{
+    padding: 0px 20px;
+    display: none;
+    background-color: rgb(181, 230, 228);
+    overflow: hidden;
+}
+#fondo{
+    background-color:black ;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px; 
+}
+
+    
